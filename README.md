@@ -9,15 +9,6 @@ Multiple linear regression models allow us to determine if there is a significan
 ![image](https://user-images.githubusercontent.com/95320265/163484080-0819f524-5acd-4136-9f0d-99098a5ec082.png)
 
 
-
-
-
-
-
-
-
-
-
 •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Only two of the five variables proved to have statistically significant impact on the mpg based on the above result. Those with *** are the variables that are significant. Both vehicle length (p-value of 2.60e-12) and ground clearance (p-value of 5.21e-08), meet the standard 0.05 p-value that indicates a statistical significance, while all the other variables did not. The estimate numbers indicate the increase in MPG’s per one unit increased in the variable measurement.
 
@@ -27,3 +18,17 @@ The slope of the linear model would not be considered zero. Since the overall p-
 •	Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 With r-squared value of 0.7149, which means that the five selected variables account for over 70% of the changes in gas milage; and with a significant p-value of 5.35e-11 we can determine that our model effectively predicts mpg of MechaCar prototypes. 
 
+# Summary Statistics on Suspension Coils
+Suspension coil spring specifications require that their variance must not exceed 100 pounds per square inch (PSI). As seen in the total_summary table below, the variance across the three manufacturing lots we analyzed is 62.29 PSI, which easily meets the outlined design specifications for the MechaCar suspension coils.
+
+![image](https://user-images.githubusercontent.com/95320265/163484858-57fafee2-629d-47bf-a242-ffcfd275ad40.png)
+
+While the variance for the manufactured suspension coils overall meets the required PSI specification, when we analyze the coils at a manufacturing lot level, we find that one lot exceeded the specification. The lot_summary  table below shows the variance of suspension coils for each manufacturing lot. Both Lot 1 and Lot 2 meet the design specifications of 100 PSI or less with variances of 0.98 and 7.47 PSI, respectively. But Lot 3 does not, and with a variance of 170.29 PSI significantly exceeds the 100 PSI limit.
+
+![image](https://user-images.githubusercontent.com/95320265/163485230-60c17b3f-c2fd-49ce-807a-2915c6447e5c.png)
+
+
+## T-Tests on Suspension Coils
+Four t-tests were performed to evaluate whether the PSI of suspension coils for all manufacturing lots and each individual lot is statistically different from the population mean of 1,500 PSI.
+All manufacturing lots:
+The t-test of the PSI across all manufacturing lots verses the mean of the population (1500 PSI) resulted in a p-value of 0.06028, which is above the significance value of 0.05. Based on this, there is not sufficient evidence to reject the null hypothesis and therefore we can conclude there is no statistical difference between samples and the mean.
