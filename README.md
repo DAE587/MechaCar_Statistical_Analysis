@@ -28,7 +28,24 @@ While the variance for the manufactured suspension coils overall meets the requi
 ![image](https://user-images.githubusercontent.com/95320265/163485230-60c17b3f-c2fd-49ce-807a-2915c6447e5c.png)
 
 
-## T-Tests on Suspension Coils
+# T-Tests on Suspension Coils
 Four t-tests were performed to evaluate whether the PSI of suspension coils for all manufacturing lots and each individual lot is statistically different from the population mean of 1,500 PSI.
-All manufacturing lots:
+#### All manufacturing lots:
 The t-test of the PSI across all manufacturing lots verses the mean of the population (1500 PSI) resulted in a p-value of 0.06028, which is above the significance value of 0.05. Based on this, there is not sufficient evidence to reject the null hypothesis and therefore we can conclude there is no statistical difference between samples and the mean.
+![image](https://user-images.githubusercontent.com/95320265/163485770-9e71a01e-54d6-4290-9c70-1c8c3228844e.png)
+
+#### Lot 1
+The t-test of the PSI of Lot 1 and the population mean of 1,500 PSI resulted in a p-value of 1. Since the p-value is above the significance value of 0.05, there is not sufficient evidence to reject the null hypothesis. We can conclude there is no statistical difference between the lot 1 samples and the population mean, so we cannot reject the null hypothesis.
+![image](https://user-images.githubusercontent.com/95320265/163486221-9a68075e-99de-4b05-8ad2-1a90b8697f7c.png)
+
+#### Lot 2
+The t-test of the PSI of Lot 2 and the population mean of 1,500 PSI resulted in a p-value of 0.6072, which is above the significance value of 0.05 There is not sufficient evidence to reject the null hypothesis and conclude that there is no statistical difference between Lot 2 samples and the population mean.
+![image](https://user-images.githubusercontent.com/95320265/163486418-daac16e3-598e-49ce-adb2-2cbfa20b5721.png)
+
+#### Lot 3
+The t-test of the PSI of Lot 3 and the population mean of 1,500 PSI resulted in a p-value of 0.04168 which is below the significance level of 0.05. This indicates that there is sufficient evidence to reject the null hypothesis and we can state that there is a statistical difference between the Lot 3 samples and the population mean.
+![image](https://user-images.githubusercontent.com/95320265/163486634-624079e2-91a1-48c2-a2cd-07812e173e75.png)
+
+
+
+
