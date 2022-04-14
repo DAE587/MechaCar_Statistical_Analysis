@@ -9,13 +9,13 @@ Multiple linear regression models allow us to determine if there is a significan
 ![image](https://user-images.githubusercontent.com/95320265/163484080-0819f524-5acd-4136-9f0d-99098a5ec082.png)
 
 
-###### •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+##### •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Only two of the five variables proved to have statistically significant impact on the mpg based on the above result. Those with *** are the variables that are significant. Both vehicle length (p-value of 2.60e-12) and ground clearance (p-value of 5.21e-08), meet the standard 0.05 p-value that indicates a statistical significance, while all the other variables did not. The estimate numbers indicate the increase in MPG’s per one unit increased in the variable measurement.
 
-###### •	Is the slope of the linear model considered to be zero? Why or why not?
+##### •	Is the slope of the linear model considered to be zero? Why or why not?
 The slope of the linear model would not be considered zero. Since the overall p-value for the multiple linear regression, all five variables, is 5.35e-11, which is below the significance level of 0.05; therefore, we can reject the null hypothesis of a zero slope.
 
-###### •	Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+##### •	Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 With r-squared value of 0.7149, which means that the five selected variables account for over 70% of the changes in gas milage; and with a significant p-value of 5.35e-11 we can determine that our model effectively predicts mpg of MechaCar prototypes. 
 
 ## Summary Statistics on Suspension Coils
@@ -51,13 +51,13 @@ The t-test of the PSI of Lot 3 and the population mean of 1,500 PSI resulted in 
 
 This challenge delt with comparing MechaCar and parts which is useful in making manufacturing decision. In addition, it would be valuable to do a statistical analysis comparing MechaCar against competitors in the auto business for marketing decisions.
 
-###### •	What metric or metrics are you going to test?
+##### •	What metric or metrics are you going to test?
 The additional metrics to test comparing MechaCar with its competitors could be safety rating, highway fuel efficiency, and resale value.
-###### •	What is the null hypothesis or alternative hypothesis?
+##### •	What is the null hypothesis or alternative hypothesis?
 The null hypothesis for each of these would be that the variance for each metric is the same when compared to MechaCar.
-###### •	What statistical test would you use to test the hypothesis? And why?
+##### •	What statistical test would you use to test the hypothesis? And why?
 Using a multiple linear regression statistical summary would show how the variables impact for each of the variable. Then a simple T test to compare the competitor’s statistical output to see if there see if we can reject the null hypothesis.
-###### •	What data is needed to run the statistical test?
+##### •	What data is needed to run the statistical test?
 For a reliable statistical analysis, we would need a random sample of 50 or more events for MechaCar and each of their competitor, reporting a numerical value for each of the variables we want to compare. 
 
 
