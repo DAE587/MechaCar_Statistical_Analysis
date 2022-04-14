@@ -1,7 +1,7 @@
 Module 15 Challenge write-up
 
 # MechaCar_Statistical_Analysis
-###R & R scripts
+### R & R scripts
 
 # Linear Regression to Predict MPG
 Multiple linear regression models allow us to determine if there is a significant statistically relationship between any number of variables to a single output. This module’s challenge had us create a linear regression model in “R script” to determine the significance for several design variables on a vehicle’s miles per gallon (mpg), we were using data provided for 50 of MechaCar prototypes. We selected the following five features for our analysis: vehicle weight, spoiler angle, ground clearance, All Wheel Drive (AWD) and vehicle length. 
